@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "strict": true,
+      "jsx": "react-jsx",
+      "esModuleInterop": true,
+      "baseUrl": "src/",
+        "paths": {
+            "*": ["*"],
+            "@assets/*": ["assets/*"], 
+        },
+      "noImplicitAny": false,
+      "types": ["jest",  "@testing-library/jest-dom"]
+    },
+  "include": ["src/components", "src/types/images.d.ts", "src/setupTests.tsx", "src/Apploader.test.tsx"],
+  "exclude": ["node_modules", "dist"]
+}
